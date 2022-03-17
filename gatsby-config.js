@@ -1,7 +1,10 @@
 module.exports = {
   siteMetadata: {
-      title: `new`,
-    siteUrl: `https://www.yourdomain.tld`,
+      title: `Gatsby v4 Tutorial`,
+    siteUrl: `https://gatsbyv4tutorialmain.gatsbyjs.io/`,
   },
-  plugins: [],
+  plugins: [
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
+  ],
 }
